@@ -1,0 +1,23 @@
+.search-root {
+  width: 100%;
+  margin: 0 15px;
+  .search-wrapper {
+    width: 100%;
+    .search-item {
+      width: 100%;
+      input {
+        @include font-regular;
+        @include font-style(18px,#000);
+        width: 100%;
+        height: 40px;
+        border-radius: 77px;
+        color: #000;
+        letter-spacing: -.02em;
+        font-weight: 400;
+        padding: 0 20px;
+        border: none;
+        background-color: #FFF;
+      }
+    }
+  }
+}
